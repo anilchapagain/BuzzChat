@@ -11,7 +11,13 @@ module.exports = () =>{
             },
             '/chat': (req, res, next) =>{
                 res.render('chatroom');
-            }
+            },
+            // '/getsession': (req, res, next) =>{
+            //     res.send("My favroute color:" + req.session.favcolor);
+            // },
+            // '/setsession': (req, res, next) =>{
+            //     req.session.favcolor  ="red"  ;
+            // res.send("session set");         }
 
         },
         'post': {
