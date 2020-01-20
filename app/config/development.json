@@ -1,5 +1,11 @@
 {
     "host": "http://localhost:3000",
     "dbURI": "mongodb://buzzchat:Buzzchat@buzzchat-gwjlh.mongodb.net/test?retryWrites=true&w=majority",
-    "sessionSecret": "catscanfly"
+    "sessionSecret": "catscanfly",
+    "fb":{
+        "clientID": "175892866832213",
+        "clientSecret": "34891a8996ba43dc728b27955f5b40ea",
+        "callbackURL": "//localhost:3000/auth/facebook/callback",
+        "profileFields": ["id", "displayName", "photos"]
+    }
 }

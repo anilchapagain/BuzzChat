@@ -2,6 +2,7 @@
 const express = require ('express');
 const app = express();
 const buzzChat = require('./app');
+const passport = require('passport');
 const title = 'BuzzChat';
 
 
@@ -11,6 +12,8 @@ app.set('view engine', 'ejs');
 
 
 app.use(buzzChat.session);
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('/', buzzChat.router);
 
