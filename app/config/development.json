@@ -1,0 +1,4 @@
+{
+    "host": "http://localhost:3000",
+    "dbURI": "mongodb+srv://buzzchat:Buzzchat@buzzchat-gwjlh.mongodb.net/test?retryWrites=true&w=majority"
+}
